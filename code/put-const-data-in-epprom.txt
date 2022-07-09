@@ -1,0 +1,4 @@
+for Keil C51:
+    in "Options for Target/BL51 Locate/Code", add "?CO?MAIN (0x2000)"
+for SDCC
+   use options in command line:  "--constseg CON -Wl -bCON=0x2000"
